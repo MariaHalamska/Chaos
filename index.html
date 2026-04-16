@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chaos with js</title>
+    <meta charset="UTF-8" />
+    <html lang="pl" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="button" id="clickmebtn">Click me!</div>
+    <div class="parag" id="paragraph">
+      <p>you clicked</p>
+      <p id="counter">0</p>
+      <p>times</p>
+    </div>
+
+    <dotlottie-wc
+      src="./src/Lilia_Light.json"
+      speed="1"
+      style="width: 300px; height: 300px"
+      mode="forward"
+      loop
+      autoplay
+      class="visible"
+      id="lilialight"
+    ></dotlottie-wc>
+
+    <dotlottie-wc
+      src="./src/Lilia_Dark.json"
+      speed="1"
+      style="width: 300px; height: 300px"
+      mode="forward"
+      loop
+      autoplay
+      class="hidden"
+      id="liliadark"
+    ></dotlottie-wc>
+
+    <audio autoplay loop muted>
+      <source src="src/music1.mp3" type="audio/mpeg" />
+    </audio>
+    <script src="script.js"></script>
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@latest/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+  </body>
+  <footer></footer>
+</html>
