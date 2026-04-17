@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #fed;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
 }
@@ -9,6 +9,10 @@ body {
   top: 60%;
   transform: translate(-50%, -75%);
   color: #fde;
+}
+.delay {
+  animation: ease;
+  transition-duration: 200ms;
 }
 .parag {
   position: absolute;
@@ -23,6 +27,13 @@ body {
 p {
   text-align: center;
 }
+button {
+  cursor: poinnter;
+  border: none;
+}
+#resetbtn {
+  transform: translate(-50%, 50%);
+}
 .button {
   background-color: aquamarine;
   padding: 1% 2%;
@@ -31,23 +42,31 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -100%);
+  animation: ease;
+  transition-duration: 200ms;
 }
 .button.dark {
   background-color: aliceblue;
+  animation: ease;
+  transition-duration: 200ms;
 }
 .button.dark:hover {
   background-color: blueviolet;
+  animation: ease;
+  transition-duration: 200ms;
 }
 .button:hover {
   background-color: #3d7;
+  animation: ease;
+  transition-duration: 200ms;
 }
 .dark {
-  background-color: #000;
+  background-color: #034;
 }
 .animation {
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 45%;
   transform: translate(-50%, -100%);
 }
 .hidden {
